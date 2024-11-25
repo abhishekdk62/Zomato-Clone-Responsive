@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zomato</title>
+    <link rel="icon" href="zomato-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <button
+            class="navbar-toggler border-0 text-white ms-0 ps-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold d-none d-md-block"
+            >
+              <li>
+                <a class="navbar-brand text-white" href="#"
+                  ><i class="bi bi-phone" style="font-size: 0.9rem"></i>
+                  <span style="font-size: 0.9rem">Get the App</span></a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0 fs-5 me-5 fs-6">
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#"
+                  >Investor Relations</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#"
+                  >Add restaurant</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#">Signup</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="img-container d-flex justify-content-center align-items-center my-4"
+      >
+        <img src="zo-title.avif" class="img-fluid w-25" alt="Zomato Title" />
+      </div>
+      <div class="text-fluid text-white fs-1 text-center">
+        Discover the best food & drinks in Kochi
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <div class="container mt-4">
+        <div class="row g-4 mt-4">
+          <div class="col-6">
+            <div
+              class="card box"
+              style="
+                border: 0.5px solid rgb(207, 205, 205);
+                border-radius: 10px;
+                overflow: hidden;
+              "
+            >
+              <img
+                src="zomato-card-1.avif"
+                class="img-fluid"
+                style="height: 20vh; object-fit: cover"
+                alt="Order Online"
+              />
+              <div class="card-body">
+                <div class="card-title fs-5">Order Online</div>
+                <div class="card-text">
+                  Stay home and order to your doorstep
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div
+              class="card box"
+              style="border: 1px solid rgb(207, 205, 205); overflow: hidden"
+            >
+              <img
+                src="zomato-card-2.avif"
+                class="img-fluid"
+                style="height: 20vh; object-fit: cover"
+                alt="Dining Out"
+              />
+              <div class="card-body">
+                <div class="card-title fs-5">Dining Out</div>
+                <div class="card-text">
+                  Find the best places to eat in your city
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Collections Section -->
+    <div class="collections mt-5 pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h1 class="fs-1">Collections</h1>
+            <p class="fs-5">
+              Explore curated lists of top restaurants, cafes, pubs, and bars in
+              Kochi, based on trends.
+            </p>
+          </div>
+          <div
+            class="col-4 d-flex justify-content-end align-items-end"
+            style="color: rgb(208, 75, 131)"
+          >
+            <p>All collections in Kochi<i class="fa-solid fa-play ps-2"></i></p>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-sm-3 col-6">
+            <div
+              class="card place-box"
+              style="background-image: url(zom.avif); background-size: cover"
+            >
+              <div class="card-text ps-2">
+                <h5>8 Places for Art Lovers</h5>
+                <p>7 Places <i class="fa-solid fa-play ps-2"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-6">
+            <div
+              class="card place-box"
+              style="background-image: url(zom1.avif); background-size: cover"
+            >
+              <div class="card-text ps-2">
+                <h5>Great Cafes</h5>
+                <p>11 Places <i class="fa-solid fa-play ps-2"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-6">
+            <div
+              class="card place-box"
+              style="background-image: url(zom2.avif); background-size: cover"
+            >
+              <div class="card-text ps-2">
+                <h5>6 Places for Authentic Kuzhimandis</h5>
+                <p>5 Places <i class="fa-solid fa-play ps-2"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-6">
+            <div
+              class="card place-box"
+              style="background-image: url(zom3.avif); background-size: cover"
+            >
+              <div class="card-text ps-2">
+                <h5>5 Must-visit Legendary Places</h5>
+                <p>5 Places <i class="fa-solid fa-play ps-2"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ........................popular-section..................... -->
+    <div class="container">
+      <div class="popular mt-5">
+        <h1>
+          Popular localities in and around Kochi
+          <div class="row mt-5">
+            <div class="col-sm-4 col-12">
+              <div class="card loc-box">
+                <div class="txt">
+                  <h1>Kakkanad</h1>
+                  <p>516 places</p>
+                </div>
+                <div class="ic">
+                  <i class="fa-solid fa-chevron-right pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12">
+              <div class="card loc-box">
+                <div class="txt">
+                  <h1>Edapally</h1>
+                  <p>370 places</p>
+                </div>
+                <div class="ic">
+                  <i class="fa-solid fa-chevron-right pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12">
+              <div class="card loc-box">
+                <div class="txt">
+                  <h1>Fort Kochi</h1>
+                  <p>137 places</p>
+                </div>
+                <div class="ic">
+                  <i class="fa-solid fa-chevron-right pe-3"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-12">
+              <div class="card loc-box my-3">
+                <div class="txt">
+                  <h1>Pnampilly Nagar</h1>
+                  <p>110 places</p>
+                </div>
+                <div class="ic">
+                  <i class="fa-solid fa-chevron-right pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12">
+              <div class="card loc-box my-3">
+                <div class="txt">
+                  <h1>MG Road</h1>
+                  <p>101 places</p>
+                </div>
+                <div class="ic">
+                  <i class="fa-solid fa-chevron-right pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12">
+              <div class="card loc-box my-3">
+                <div class="txt">
+                  <h1>Kacheripady</h1>
+                  <p>124 places</p>
+                </div>
+                <div class="ic">
+                  <i class="fa-solid fa-chevron-right pe-3"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-12">
+              <div class="card loc-box">
+                <div class="txt">
+                  <h1>Palarivattom</h1>
+                  <p>170 places</p>
+                </div>
+                <div class="ic">
+                  <i class="fa-solid fa-chevron-right pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12">
+              <div class="card loc-box">
+                <div class="txt">
+                  <h1>Vyttila</h1>
+                  <p>137 places</p>
+                </div>
+                <div class="ic">
+                  <i class="fa-solid fa-chevron-right pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-12">
+              <div class="card loc-box">
+                <div class="txt">
+                  <h1>see more</h1>
+                </div>
+                <div class="ic pe-3">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </h1>
+      </div>
+    </div>
+
+    <!-- .....................get the app sec......................... -->
+    <div class="container">
+      <div class="get-app" style="margin-top: 23vh">
+        <div class="row">
+          <div class="col-sm-6 phone-box d-none d-sm-flex">
+            <img src="mobile.avif" style="width: 53vh" alt="" />
+          </div>
+          <div class="col-sm-6">
+            <h1>Get the Zomato app</h1>
+            <p>
+              We will send you a link, open it on your phone to download<br />
+              the app
+            </p>
+            <div class="radios d-flex gap-5 fs-5">
+              <div class="email">
+                <input type="radio" id="email" name="contact" value="Email" />
+                <label for="email">Email</label>
+              </div>
+              <div class="phone">
+                <input type="radio" id="phone" name="contact" value="Phone" />
+                <label for="phone">Phone</label>
+              </div>
+            </div>
+            <div class="input d-flex gap-2">
+              <input
+                type="text"
+                placeholder="Email"
+                class="border-danger rounded"
+              />
+              <div class="btn btn-danger">Share App Link</div>
+            </div>
+            <div class="dwnload mt-3" style="color: rgb(149, 149, 151)">
+              Download app from
+            </div>
+            <div class="get-imgs d-flex gap-3 mt-3">
+              <img src="get-google-play.webp" alt="" style="height: 6vh" />
+              <img src="get-app-store.webp" style="height: 6vh" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="explore">
+      <div class="container mt-5">
+        <h2>Explore options near me</h2>
+        <div class="row">
+          <div class="col-12">
+            <div class="card pop">
+              <div class="pop-txt">Popular Cuisines Near Me</div>
+              <div class="pop-ic">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card pop">
+              <div class="pop-txt">Popular Restaurant Types Near me</div>
+              <div class="pop-ic">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card pop">
+              <div class="pop-txt">Top Restaurant Chains</div>
+              <div class="pop-ic">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card pop">
+              <div class="pop-txt">Cities We Deliver To</div>
+              <div class="pop-ic">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer mt-5" style="background-color: rgb(228, 228, 230)">
+      <div class="container pt-5">
+        <div class="row mt-5">
+          <div class="col-md-6 col-sm-12 mt-3">
+            <img
+              src="zo-title.avif"
+              style="height: 5vh; filter: invert(1)"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-md-6 col-sm-12 d-flex justify-content-sm-start justify-content-md-end mt-3 gap-2"
+          >
+            <div class="btn btn-outline-dark">India</div>
+            <div class="btn btn-outline-dark">English</div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-2 col-6 mt-3">
+            <h3>ABOUT ZOMATO</h3>
+            <p>Who We Are</p>
+            <p>Blog</p>
+            <p>Work With Us</p>
+            <p>Investor Relations</p>
+            <p>Report Fraud</p>
+            <p>Press Kit</p>
+            <p>Contact Us</p>
+          </div>
+          <div class="col-sm-2 col-6 mt-3">
+            <h3>Zomaverse</h3>
+            <p>Zomato</p>
+            <p>Blinkit</p>
+            <p>District</p>
+            <p>Feeding India</p>
+            <p>Hyperpure</p>
+            <p>Zomato Live</p>
+            <p>Zomaland</p>
+            <p>Weather Union</p>
+        </div>
+        <div class="col-sm-2 col-6 mt-3">
+          <h3>For Restaurants
+          </h3>
+          <p>Partner With Us
+          </p>
+          <p>Apps For You</p>
+          
+      </div>
+      <div class="col-sm-2 col-6 mt-3">
+        <h3>LEARN MORE</h3>
+        <p>Privacy</p>
+        <p>Security</p>
+        <p>Terms</p>
+        
+    </div>
+    <div class="col-sm-2 d-none d-sm-flex flex-sm-column mt-3">
+      <h3>SOCIAL LINKS</h3>
+      <div class="get-box-two d-flex flex-column gap-3">
+        <img src="get-google-play.webp" alt="" style="width:10vw;" />
+              <img src="get-app-store.webp" style="width:10vw;" alt="" />
+      </div>
+      
+  </div>
+      </div>
+      <div class="credits">
+        <hr>
+        <p class="pb-4">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
